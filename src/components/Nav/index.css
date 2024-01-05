@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  padding: 12px 120px;
+  height: 56px;
+  background-color: transparent;
+}
+.portfolio-heading {
+  color: #25282b;
+  font-family: "Comfortaa", "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32.4px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  color: #25282b;
+  font-family: Raleway;
+  font-weight: 500;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-tabs {
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  list-style: none;
+  color: #25282b;
+}

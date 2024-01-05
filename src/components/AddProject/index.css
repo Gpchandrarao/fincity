@@ -1,0 +1,147 @@
+.add-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  min-height: 100vh;
+}
+.form-project-container {
+  margin-bottom: 30px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #25282b;
+}
+
+.svgs {
+  width: 100%;
+  height: 132px;
+}
+
+.border {
+  background-color: #fdc435;
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  text-align: center;
+  margin: 10px 120px;
+}
+
+.add-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.input-element {
+  height: 40px;
+  background-color: #ffffffff;
+  width: 300px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 10px;
+  outline: none;
+}
+
+.input-element-tex {
+  background-color: #ffffffff;
+  margin: 15px 0px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 10px;
+  outline: none;
+}
+
+.add-button {
+  background-color: orange;
+  align-self: flex-end;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.image-element {
+  height: 300px;
+  width: 300px;
+}
+
+.li-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  margin: 15px 0;
+  gap: 24px;
+  background-color: #fff;
+  /* border: 1px solid #000000; */
+  box-shadow: 1px 1px 1px #bfbdb6;
+}
+
+/* .projects-li-heading {
+  margin-bottom: 20px;
+} */
+
+.ul-container {
+  width: 50%;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.li-div-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 20px;
+  gap: 24px;
+}
+
+.li-heading {
+  color: #25282b;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.li-des {
+  color: #828282;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.view-projects-container {
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #000000;
+  width: 150px;
+  background-color: transparent;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 30px;
+}

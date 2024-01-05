@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Nunito:wght@400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700&display=swap");
+
+/* .home-container {
+  min-height: 100vh;
+} */
+
+.add-projects-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 0 120px;
+
+  height: 3813px;
+}
+
+.left {
+  width: 486px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ui-ux {
+  color: #fdc435;
+  font-family: Nunito;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.home-name {
+  color: #333;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+
+  font-family: Playfair Display;
+}
+.dis {
+  color: #828282;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.project-but {
+  background-color: #fdc435;
+  padding: 8px 24px;
+  border: none;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.linkedin-but {
+  color: #25282b;
+  background-color: transparent;
+  padding: 8px 24px;
+  border: 2px solid #28252b;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
